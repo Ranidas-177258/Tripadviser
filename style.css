@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family:'Gabarito',sans-serif;
+}
+
+
+.navbar {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    border-bottom: solid black 1px;
+    align-items: center;
+
+
+}
+
+
+.navbar__s2 {
+   padding: 10px;
+   border: solid black 1px;
+   border-radius: 30px;
+   width: 100%;
+   display: flex;
+   
+
+}
+.navbar__s2 input {
+    border: none;
+     width: 100%;
+    
+
+
+}
+.navbar__s3 {
+    display: flex;
+    gap: 10px;
+    margin-top: 5px;
+
+
+}
+.navbar__s4{
+    display: flex;
+   
+    padding: 10px;
+    gap: 10px;
+    
+}
+.navbar__s4 button {
+background-color: black;
+color: white;
+border-radius: 5px;
+}
+.places {
+    display: flex;
+    padding-bottom: 10px;
+    gap: 10px;
+    padding-top: 10px;
+}
+.sea-image img{
+    width: 100%;
+   padding: 10px;
+} 
+.sections {
+ display: flex;
+ justify-content: center;
+ gap: 10px;
+ 
+}
+.categories{
+    margin-top: 50px;
+    gap: 20px;
+    padding: 10px;
+}
+.categories h1 {
+color: orangered;
+}
+.categories h2 {
+    color: orangered;
+}
+.categories button {
+    background-color: orange;
+    color: black;
+    border-radius: 20px;
+    padding: 20px;
+    margin-top: 20px;
+
+}
+.review image img {
+    width: 100%;
+    padding: 10px;
+}
+.container {
+    background-color: green;
+    color: black;
+    padding: 10px;
+    gap: 10px;
+    
+}
+.container button {
+    background-color: orange;
+    color: black;
+    border-radius: 20px;
+    padding: 20px;
+    margin-top: 20px;
+
+}
+.updates {
+    padding-top: 20px;
+   padding: 10px;
+}
+.updates p{
+    margin-top: 20px;
+}
+.updates h1 {
+    color: darkgreen;
+    justify-content: center;
+    display: flex;
+
+}
